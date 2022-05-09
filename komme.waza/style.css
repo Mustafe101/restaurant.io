@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    background: white;
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+
+.menu img{
+    display: flex;
+    margin-left: 280px;
+}
+
+
+.menu li {
+    display: block;
+    float: left;
+    border: 0;   
+
+}
+
+
+.menu ul li a {
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 90px;
+    display: flex;
+    text-decoration: none;
+    word-spacing: 1px;
+    font-family: sans-serif;
+    color: #003E52;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+
+.menu li a:hover{
+    color: #6cadc2;
+    opacity: 70%;
+    font-size: 11px;
+}
+
+
+.image1{
+    display: flex;
+}
+
+
+.image2{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    margin-left:50px;
+}
+
+
+.font{
+    width: 700px;;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -710px;
+    font-size: 35px;
+    
+}
+
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+h4{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+p{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.image4{
+    display: flex;
+    margin-top: 9%
+}
+
+
+.font2{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.font2 h3 {
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-family:'Libre Baskerville', serif;
+    font-size: 35px;
+}
+
+
+
+.font2 h4{
+
+    font-size: 20px;
+    font-family:'Libre Baskerville', serif; 
+}
+
+.font2 p{
+    font-size: 20px;
+    width: 600px;
+}
+
+
+.image4{
+    
+}
